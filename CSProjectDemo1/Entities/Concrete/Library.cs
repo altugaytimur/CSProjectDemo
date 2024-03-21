@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSProjectDemo1.Abstracts
+namespace CSProjectDemo1.Entities.Concrete
 {
-    internal class Book
+    public class Library
     {
+        public Library()
+        {
+            
+        }
     }
 }
