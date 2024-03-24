@@ -8,7 +8,8 @@ namespace CSProjectDemo1.Entities.Interfaces
 {
     public interface IMember 
     {
-        public string MemberId { get; set; }
+       
+        public int MemberNo { get; set; }
         public string FirstName { get; set; } 
         public string LastName { get; set; } 
         public string FullName => $"{FirstName} {LastName}";

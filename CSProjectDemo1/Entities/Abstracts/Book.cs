@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CSProjectDemo1.Entities.Abstracts
 {
-    public abstract class Book:BaseEntity
+    public  class Book:BaseEntity
     {
         public Status Status { get; set; }
         public  string IsbnNo { get; set; }

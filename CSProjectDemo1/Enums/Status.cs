@@ -8,6 +8,9 @@ namespace CSProjectDemo1.Enums
 {
     public enum  Status
     {
+        Available,
+        InUse,
+        None
 
     }
 }
